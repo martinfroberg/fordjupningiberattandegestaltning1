@@ -22,12 +22,12 @@ body, html {
 
 .bgimg-2 {
   background-image: url("http://kingofwallpapers.com/natur/natur-009.jpg");
-  min-height: 600px;
+  min-height: 100%;
 }
 
 .bgimg-3 {
   background-image: url("http://kingofwallpapers.com/natur/natur-001.jpg");
-  min-height: 600px;
+  min-height: 100%;
 }
 
 .caption {
