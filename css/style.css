@@ -1,12 +1,16 @@
-
 body, html {
-  height: 100%;
-  margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+nav {
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+  width: 100%;
+  height: 10%;
+  opacity: 0.3;
+}
+
+.parallax-background {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -15,46 +19,31 @@ body, html {
   background-size: cover;
   z-index: -1;
 }
-.bgimg-1 {
+#backgroundImage1.parallax-background {
   background-image: url("../images/images.jpg");
   min-height: 100%;
 }
 
-.bgimg-2 {
+#backgroundImage2.parallax-background {
   background-image: url("http://kingofwallpapers.com/natur/natur-009.jpg");
   min-height: 100%;
 }
 
-.bgimg-3 {
+#backgroundImage3.parallax-background {
   background-image: url("http://kingofwallpapers.com/natur/natur-001.jpg");
   min-height: 100%;
 }
 
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
+.parallaxTextBox {
+  color: #777;
+  background-color: white;
   text-align: center;
-  color: #000;
-}
-
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-}
-
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
+  padding: 50px 80px;
+  text-align: justify;
 }
 
 .slideshow {
+
 }
 
 .slideshow > div > img{
