@@ -6,8 +6,15 @@ nav {
   z-index: 1;
   background-color: black;
   width: 100%;
-  height: 10%;
-  opacity: 1;
+  height: 7%;
+}
+
+.index-img-wrap {
+  padding-top: 7%;
+}
+
+.index-img-text-wrap {
+  
 }
 
 .parallax-background {
@@ -43,7 +50,6 @@ nav {
 }
 
 .slideshow > div > img{
-  top: 10%;
   position: absolute;
   width: 100%;
   height: 70%;

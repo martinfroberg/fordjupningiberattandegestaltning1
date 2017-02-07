@@ -6,10 +6,40 @@
 
     </header>
 <body>
-  <nav><p>Chippit</p>
+  <nav>
+    <!-- Logo with "scroll to top" -->
+    <a href="" onclick="scrollToTop();return false">Chippit</a>
+    <script type="text/javascript">
+    var timeOut;
+    function scrollToTop() {
+      if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
+        window.scrollBy(0,-50);
+        timeOut=setTimeout('scrollToTop()',10);
+      } else clearTimeout(timeOut);
+    }
+    </script>
+    <button type="button" name="button">Order now!</button>
+    <button type="button" name="button">Add ons</button>
+    <button type="button" name="button">Support</button>
+    <button type="button" name="button">Company</button>
   </nav>
 
-  <!-- Slideshow -->
+  <div class="index-img-wrap">
+    <div class="row">
+      <div class="col-xs-6">
+        <img class="index-chip-img" src="http://combiboilersleeds.com/images/chip/chip-3.jpg" alt="">
+      </div>
+      <div class="col-xs-6">
+        <div class="index-img-text-wrap">
+          <h1>Finally here!</h1>
+          <p>Random bullshit reklam</p>
+          <button type="button" name="button">Discover more!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slideshow
   <div class="slideshow">
     <div class="slide">
       <img src="http://kingofwallpapers.com/chip/chip-004.jpg">
@@ -35,7 +65,7 @@
         .end()
         .appendTo('.slideshow');
       }, 3000);
-  </script>
+  </script> -->
 
     <div id="backgroundImage1" class="parallax-background"></div>
     <div class="parallaxTextBox">
