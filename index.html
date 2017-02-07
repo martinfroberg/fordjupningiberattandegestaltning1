@@ -3,21 +3,12 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
+    <script src="js/smoothScrolling.js"></script>
     </header>
-<body>
+<body id="top">
   <nav>
     <!-- Logo with "scroll to top" -->
-    <a href="" onclick="scrollToTop();return false">Chippit</a>
-    <script type="text/javascript">
-    var timeOut;
-    function scrollToTop() {
-      if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
-        window.scrollBy(0,-50);
-        timeOut=setTimeout('scrollToTop()',10);
-      } else clearTimeout(timeOut);
-    }
-    </script>
+    <a href="#top">Chippit</a>
     <button type="button" name="button">Order now!</button>
     <button type="button" name="button">Add ons</button>
     <button type="button" name="button">Support</button>
@@ -33,7 +24,9 @@
         <div class="index-img-text-wrap">
           <h1>Finally here!</h1>
           <p>Random bullshit reklam</p>
-          <button type="button" name="button">Discover more!</button>
+          <a href="#info">Discover more!</a>
+          <script type="text/javascript">
+          </script>
         </div>
       </div>
     </div>
@@ -68,7 +61,7 @@
   </script> -->
 
     <div id="backgroundImage1" class="parallax-background"></div>
-    <div class="parallaxTextBox">
+    <div id="info"class="parallaxTextBox">
       <h3>Box1</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ut nisl id aliquam. Suspendisse finibus euismod lacus, vel porta mauris ullamcorper quis. Nunc id euismod nisl. Proin nec sapien accumsan, pharetra massa vitae, maximus tortor. Nunc in lectus commodo, tempus dolor et, dapibus nisl. Nunc bibendum mollis ligula, vel scelerisque urna egestas et. Donec vel feugiat ipsum, in porttitor dolor. In eu urna sed purus commodo finibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur faucibus et justo vitae lobortis. Etiam diam tortor, tempus ut mollis sit amet, vulputate sed quam. Aenean non enim.</p>
     </div>
