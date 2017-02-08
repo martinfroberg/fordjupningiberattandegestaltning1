@@ -20,7 +20,6 @@ nav {
 }
 
 .parallax {
-  opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -97,6 +96,14 @@ nav {
 
 .addon-box-back {
   transform: rotateY(180deg);
+}
+
+#diet-tracking-addon.addon-box-front {
+  background-image: url("http://az616578.vo.msecnd.net/files/2016/04/10/635959246334825968902496122_Improving-Your-Health-through-Exercises.jpg");
+}
+
+#diet-tracking-addon.addon-box-front > h3 {
+  text-align: center;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
