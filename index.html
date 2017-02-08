@@ -1,125 +1,120 @@
-<html>
-<header>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="js/smoothScrolling.js"></script>
-</header>
-<body id="top">
-  <nav>
-    <!-- Logo with "scroll to top" -->
-    <a href="#top">Chippit</a>
-    <button type="button" name="button">Order now!</button>
-    <a href="#addons">Add ons</a>
-    <a href="#support">Support</a>
-    <button type="button" name="button">Company</button>
-  </nav>
+  <html>
+  <header>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/smoothScrolling.js"></script>
+  </header>
+  <body id="top">
+    <nav>
+      <!-- Logo with "scroll to top" -->
+      <a href="#top">Chippit</a>
+      <button type="button" name="button">Order now!</button>
+      <a href="#addons">Add ons</a>
+      <a href="#support">Support</a>
+      <button type="button" name="button">Company</button>
+    </nav>
 
-  <div class="index-img-wrap">
-    <div class="row">
-      <div class="col-xs-6">
-        <img class="index-chip-img" src="http://combiboilersleeds.com/images/chip/chip-3.jpg" alt="">
-      </div>
-      <div class="col-xs-6">
-        <div class="index-img-text-wrap">
-          <h1>Finally here!</h1>
-          <p>Random bullshit reklam</p>
-          <a href="#info">Discover more!</a>
+    <div class="index-img-wrap">
+      <div class="row">
+        <div class="col-xs-6">
+          <img class="index-chip-img" src="http://combiboilersleeds.com/images/chip/chip-3.jpg" alt="">
+        </div>
+        <div class="col-xs-6">
+          <div class="index-img-text-wrap">
+            <h1>Finally here!</h1>
+            <p>Random bullshit reklam</p>
+            <a href="#info">Discover more!</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Slideshow
-  <div class="slideshow">
+    <!-- Slideshow
+    <div class="slideshow">
+    <div class="slide">
+    <img src="http://kingofwallpapers.com/chip/chip-004.jpg">
+  </div>
+  <div class="slide">
+  <img src="http://kingofwallpapers.com/chip/chip-003.jpg">
+  </div>
   <div class="slide">
   <img src="http://kingofwallpapers.com/chip/chip-004.jpg">
-</div>
-<div class="slide">
-<img src="http://kingofwallpapers.com/chip/chip-003.jpg">
-</div>
-<div class="slide">
-<img src="http://kingofwallpapers.com/chip/chip-004.jpg">
-</div>
-<div class="slide">
-<img src="http://kingofwallpapers.com/chip/chip-003.jpg">
-</div>
-</div>
-<script type="text/javascript">
-$(".slideshow > div:gt(0)").hide();
+  </div>
+  <div class="slide">
+  <img src="http://kingofwallpapers.com/chip/chip-003.jpg">
+  </div>
+  </div>
+  <script type="text/javascript">
+  $(".slideshow > div:gt(0)").hide();
 
-setInterval(function() {
-$('.slideshow > div:first')
-.fadeOut(1000)
-.next()
-.fadeIn(1000)
-.end()
-.appendTo('.slideshow');
-}, 3000);
-</script> -->
+  setInterval(function() {
+  $('.slideshow > div:first')
+  .fadeOut(1000)
+  .next()
+  .fadeIn(1000)
+  .end()
+  .appendTo('.slideshow');
+  }, 3000);
+  </script> -->
 
-<div id="backgroundImage1" class="parallax-background"></div>
-<div id="info" class="scrollHandle"></div>
-<div class="parallaxTextBox">
-  <h3>Box1</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ut nisl id aliquam. Suspendisse finibus euismod lacus, vel porta mauris ullamcorper quis. Nunc id euismod nisl. Proin nec sapien accumsan, pharetra massa vitae, maximus tortor. Nunc in lectus commodo, tempus dolor et, dapibus nisl. Nunc bibendum mollis ligula, vel scelerisque urna egestas et. Donec vel feugiat ipsum, in porttitor dolor. In eu urna sed purus commodo finibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur faucibus et justo vitae lobortis. Etiam diam tortor, tempus ut mollis sit amet, vulputate sed quam. Aenean non enim.</p>
-</div>
+  <div id="parallaxImage1" class="parallax"></div>
+  <div id="info" class="scrollHandle"></div>
+  <div class="textBox">
+    <h3>Box1</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ut nisl id aliquam. Suspendisse finibus euismod lacus, vel porta mauris ullamcorper quis. Nunc id euismod nisl. Proin nec sapien accumsan, pharetra massa vitae, maximus tortor. Nunc in lectus commodo, tempus dolor et, dapibus nisl. Nunc bibendum mollis ligula, vel scelerisque urna egestas et. Donec vel feugiat ipsum, in porttitor dolor. In eu urna sed purus commodo finibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur faucibus et justo vitae lobortis. Etiam diam tortor, tempus ut mollis sit amet, vulputate sed quam. Aenean non enim.</p>
+  </div>
 
-<div id="backgroundImage2" class="parallax-background"></div>
-<div id="addons" class="scrollHandle"></div>
-<div class="addon-box-container">
-  <div class="row">
-    <div class="col-md-4">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-          <div class="addon-box-front">
-            Front
-          </div>
-          <div class="addon-box-back">
-            Back
+  <div id="parallaxImage2" class="parallax"></div>
+  <!--
+  <div class="parallaxTextBox">
+  <h3>Box2</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim eleifend tincidunt. Phasellus consequat elementum augue a gravida. Nulla ultricies diam congue, venenatis metus at, venenatis neque. Nam orci augue, hendrerit aliquet feugiat non, tempus sit amet arcu. Duis bibendum sapien eget dolor condimentum, a malesuada justo pulvinar. In diam nisi, pulvinar eget erat non, ultrices fermentum libero. Integer eget enim ac mi vehicula gravida. Integer massa urna, auctor ac risus non, egestas eleifend libero. Nullam auctor vehicula justo. Quisque sollicitudin risus tortor, eu congue ex volutpat eget. Maecenas egestas metus sit amet varius semper. Sed rutrum eleifend metus at ultricies. Ut lacinia ligula id venenatis accumsan. Proin eget dictum quam. Nunc massa est, porttitor vitae ligula vel, hendrerit faucibus nisi. Pellentesque ac consequat urna. Donec faucibus at neque at ornare. Aliquam erat volutpat. Cras elementum magna at urna euismod tincidunt. Sed aliquam, purus nec auctor semper, libero nunc rhoncus ante, quis blandit justo libero sit amet justo. Ut volutpat neque ac arcu facilisis, eu semper libero iaculis. Curabitur ante dolor, volutpat sed neque ut, fringilla bibendum erat. Integer vel augue imperdiet, eleifend sapien quis, viverra odio. Vestibulum vitae nunc id massa malesuada pulvinar ac id ligula. Phasellus feugiat neque consequat est eleifend, id semper libero tristique. Suspendisse potenti. Nam faucibus sagittis commodo. Ut faucibus ex nunc, eget finibus arcu porta eu. Etiam scelerisque vehicula lacinia. Curabitur placerat sit amet sem in condimentum. Etiam ultrices tristique quam. In a scelerisque eros. Nam et faucibus nibh, et aliquam justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut placerat nunc elit, ultrices rutrum arcu gravida vel. Sed finibus nulla nulla, bibendum aliquam justo aliquet quis. Nullam ligula neque, tincidunt nec dapibus ut, imperdiet a nunc. Etiam ut lacus tempor, hendrerit lorem ullamcorper, faucibus ligula. Fusce ante.</p>
+  </div>-->
+  <div id="addons" class="scrollHandle"></div>
+  <div id="addonsTitle">
+    <h3>Addons you might like.</h3>
+  </div>
+  <div id="parallaxImage3" class="parallax">
+    <div class="addon-box-container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="addon-box-front">
+              </div>
+              <div class="addon-box-back">
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-          <div class="addon-box-front">
-            Front2
-          </div>
-          <div class="addon-box-back">
-            Back2
+        <div class="col-md-4">
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="addon-box-front">
+              </div>
+              <div class="addon-box-back">
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-          <div class="addon-box-front">
-            Front3
-          </div>
-          <div class="addon-box-back">
-            Back3
+        <div class="col-md-4">
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="addon-box-front">
+              </div>
+              <div class="addon-box-back">
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+  <div id="support" class="textBox">
+    <h3>Box3</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum sed nisi ac mollis. In sit amet velit urna. Cras lectus mauris, gravida quis orci.</p>
+  </div>
 
-
-<!--
-<div class="parallaxTextBox">
-<h3>Box2</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim eleifend tincidunt. Phasellus consequat elementum augue a gravida. Nulla ultricies diam congue, venenatis metus at, venenatis neque. Nam orci augue, hendrerit aliquet feugiat non, tempus sit amet arcu. Duis bibendum sapien eget dolor condimentum, a malesuada justo pulvinar. In diam nisi, pulvinar eget erat non, ultrices fermentum libero. Integer eget enim ac mi vehicula gravida. Integer massa urna, auctor ac risus non, egestas eleifend libero. Nullam auctor vehicula justo. Quisque sollicitudin risus tortor, eu congue ex volutpat eget. Maecenas egestas metus sit amet varius semper. Sed rutrum eleifend metus at ultricies. Ut lacinia ligula id venenatis accumsan. Proin eget dictum quam. Nunc massa est, porttitor vitae ligula vel, hendrerit faucibus nisi. Pellentesque ac consequat urna. Donec faucibus at neque at ornare. Aliquam erat volutpat. Cras elementum magna at urna euismod tincidunt. Sed aliquam, purus nec auctor semper, libero nunc rhoncus ante, quis blandit justo libero sit amet justo. Ut volutpat neque ac arcu facilisis, eu semper libero iaculis. Curabitur ante dolor, volutpat sed neque ut, fringilla bibendum erat. Integer vel augue imperdiet, eleifend sapien quis, viverra odio. Vestibulum vitae nunc id massa malesuada pulvinar ac id ligula. Phasellus feugiat neque consequat est eleifend, id semper libero tristique. Suspendisse potenti. Nam faucibus sagittis commodo. Ut faucibus ex nunc, eget finibus arcu porta eu. Etiam scelerisque vehicula lacinia. Curabitur placerat sit amet sem in condimentum. Etiam ultrices tristique quam. In a scelerisque eros. Nam et faucibus nibh, et aliquam justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut placerat nunc elit, ultrices rutrum arcu gravida vel. Sed finibus nulla nulla, bibendum aliquam justo aliquet quis. Nullam ligula neque, tincidunt nec dapibus ut, imperdiet a nunc. Etiam ut lacus tempor, hendrerit lorem ullamcorper, faucibus ligula. Fusce ante.</p>
-</div>-->
-
-<div id="backgroundImage3" class="parallax-background"></div>
-<div id="support" class="parallaxTextBox">
-  <h3>Box3</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum sed nisi ac mollis. In sit amet velit urna. Cras lectus mauris, gravida quis orci.</p>
-</div>
-
-</body>
-</html>
+  </body>
+  </html>

@@ -19,31 +19,27 @@ nav {
 
 }
 
-.parallax-background {
-  position: static;
+.parallax {
   opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -1;
+  height: 100%;
 }
-#backgroundImage1.parallax-background {
+#parallaxImage1.parallax {
   background-image: url("../images/images.jpg");
-  min-height: 100%;
 }
 
-#backgroundImage2.parallax-background {
+#parallaxImage2.parallax {
   background-image: url("http://kingofwallpapers.com/natur/natur-009.jpg");
-  min-height: 100%;
 }
 
-#backgroundImage3.parallax-background {
+#parallaxImage3.parallax {
   background-image: url("http://kingofwallpapers.com/natur/natur-001.jpg");
-  min-height: 100%;
 }
 
-.parallaxTextBox {
+.textBox {
   color: #777;
   background-color: white;
   text-align: center;
@@ -60,6 +56,9 @@ nav {
   position: absolute;
   width: 100%;
   height: 70%;
+}
+
+#addonsTitle {
 }
 
 .flip-container {
@@ -82,15 +81,17 @@ nav {
 }
 
 .addon-box-front, .addon-box-back {
+  border-radius: 8%;
   backface-visibility: hidden;
   position: absolute;
-  top: 0;
-  left: 0;
-  background-color: orange;
+  background-color: lightblue;
+}
+
+.addon-box-container {
+  padding: 3% 10% 0 10%;
 }
 
 .addon-box-front {
-  z-index: 2;
   transform: rotateY(0deg);
 }
 
@@ -100,7 +101,7 @@ nav {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .parallax {
         background-attachment: scroll;
     }
 }
