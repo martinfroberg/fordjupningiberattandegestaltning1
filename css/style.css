@@ -264,14 +264,12 @@ a:active {
 
 #addonsTitle {
   overflow: hidden;
-  background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(black , green); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(black , green); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(black , green); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(black , green); /* Standard syntax */
+  color: #777;
+  background-color: white;
   text-align: center;
+  padding: 10px 80px;
+  text-align: justify;
+  border: 1px solid black;
 
-}
-#addonsTitle {
-  color: white;
+
 }
