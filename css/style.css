@@ -112,11 +112,17 @@ nav {
   background-size: 320px 480px;
   background-repeat: no-repeat;
 }
+#prevent-disease.addon-box-front > h3 {
+  text-align: center;
+}
 
 #adderal.addon-box-front {
   background-image: url("http://dominionministriesinc.org/wp-content/uploads/2014/12/no-distractions.jpg");
   background-size: 320px 480px;
   background-repeat: no-repeat;
+}
+#adderal.addon-box-front > h3 {
+  text-align: center;
 }
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
