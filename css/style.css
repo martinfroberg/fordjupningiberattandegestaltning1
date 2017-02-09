@@ -114,18 +114,33 @@ nav {
 }
 .footer{
   background-color: black;
-  height: 100px;
-  width: 100%;
+  height: 150px;
+  width: 70%;
+  margin: auto;
 }
 .fleft{
   float: left;
-  background-color: pink;
+  background-color: black;
   height: 100%;
   width: 50%;
 }
 .fright{
   float: right;
-  background-color: purple;
+  background-color: black;
   height: 100%;
   width: 50%;
+}
+.fleft h3{
+  padding-left: 15px;
+  color: white;
+}
+.fleft p{
+  padding-left: 15px;
+  color: white;
+}
+.fright h3{
+  color: white;
+}
+.fright p{
+  color: white;
 }
