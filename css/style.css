@@ -84,23 +84,42 @@ nav {
   border-radius: 8%;
   backface-visibility: hidden;
   position: absolute;
-  background-color: lightblue;
+  background-color: white;
 }
 
 .addon-box-container {
   padding: 3% 10% 0 10%;
 }
 
+.addon-box-front, .addon-box-back {
+  border: 1px solid black;
+}
+
 .addon-box-front {
   transform: rotateY(0deg);
+}
+
+.addon-box-front h2 {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .addon-box-back {
   transform: rotateY(180deg);
 }
 
+.addon-box-back p {
+  text-align: justify;
+  margin: 10%;
+  font-size: 20px;
+  font-family: serif;
+}
+
 #diet-tracking-addon.addon-box-front {
   background-image: url("http://az616578.vo.msecnd.net/files/2016/04/10/635959246334825968902496122_Improving-Your-Health-through-Exercises.jpg");
+  background-position: 0 25px;
+  background-repeat: no-repeat;
 }
 
 #diet-tracking-addon.addon-box-front > h3 {
