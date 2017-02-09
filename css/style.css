@@ -17,10 +17,24 @@ nav {
 .index-img-wrap {
   padding-top: 7%;
   border: 1px solid black;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+
+.index-chip-img {
+  margin-left: 15%;
 }
 
 .index-img-text-wrap {
 
+}
+
+.index-img-text-wrap h1 {
+
+}
+
+.index-img-text-wrap p {
+  font-style: italic;
 }
 
 
