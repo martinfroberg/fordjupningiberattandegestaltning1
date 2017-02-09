@@ -117,6 +117,7 @@ nav {
   height: 150px;
   width: 70%;
   margin: auto;
+  margin-bottom: 0;
 }
 .fleft{
   float: left;
@@ -136,11 +137,14 @@ nav {
 }
 .fleft p{
   padding-left: 15px;
-  color: white;
+  color: #777;
 }
 .fright h3{
   color: white;
 }
 .fright p{
-  color: white;
+  color: #777;
+}
+.fleft a{
+  color: #777;
 }
