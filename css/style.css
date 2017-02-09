@@ -16,6 +16,7 @@ nav {
 
 .index-img-wrap {
   padding-top: 7%;
+  border: 1px solid black;
 }
 
 .index-img-text-wrap {
@@ -48,6 +49,7 @@ nav {
   text-align: center;
   padding: 50px 80px;
   text-align: justify;
+  border: 1px solid black;
 }
 
 .scrollHandle {
