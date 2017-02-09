@@ -112,3 +112,20 @@ nav {
         background-attachment: scroll;
     }
 }
+.footer{
+  background-color: black;
+  height: 100px;
+  width: 100%;
+}
+.fleft{
+  float: left;
+  background-color: pink;
+  height: 100%;
+  width: 50%;
+}
+.fright{
+  float: right;
+  background-color: purple;
+  height: 100%;
+  width: 50%;
+}
